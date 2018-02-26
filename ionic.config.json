@@ -1,0 +1,8 @@
+{
+  "name": "fastlane-ionic-poc",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

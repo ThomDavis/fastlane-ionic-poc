@@ -12,18 +12,13 @@ log.txt
 .vscode/
 npm-debug.log*
 
-.env
 .idea/
-.sass-cache/
 .sourcemaps/
+.sass-cache/
 .tmp/
 .versions/
-certificates/google-play-android-fastlane-*
 coverage/
 dist/
-fastlane/metadata/
-fastlane/screenshots/
-fastlane/report.xml
 node_modules/
 tmp/
 temp/
@@ -32,14 +27,9 @@ platforms/
 plugins/
 plugins/android.json
 plugins/ios.json
-src/constants/environment.constants.ts
 www/
 $RECYCLE.BIN/
-package-lock.json
 
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
-
-.php_cs.cache
-.gitignore

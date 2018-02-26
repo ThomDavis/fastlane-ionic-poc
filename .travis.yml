@@ -12,3 +12,15 @@ addons:
 #notifications:
 #  slack:
 #    secure: gJ+lSEQ0m41qdacRc2kzu94tBdNVF/vVaQfTm6L71M79pMQf7jf4vrlfqvZLW+L6SXEOSqfCrvxRrrlUWz41KtAuIL896LSi041xS4X4QlGFr3RKn23SgCVyx5fKubEmPe0hxWm5p1cm4XD4+IkffT3M8jHGHiCMSsh7s3wbnbKmp6qaj5i/UAGKUkQMbUG48lag2ozYeSW6jJd4TVFCC0w+RChhXlxRfslOJ/poIdUwsDW8AINWDLcBHlBxsyV6bb3wrqgzacMI8QMCeZ0ATegzjk5qgPRDl9t/FpRj6bUbKExG8N4zqiT3WUomk9O7uw2lbvuZw3G0jF7ODQ5kIdiG2uiEm+ollnQeU/OTQrXNHF/NjpnvLacCjuuNduDuZqnR4hw+40Otd8TxzRvnLZHwML1qU1PLmGGC7HvC8wF4C5i1SJD5JMkMO4MuMw+jawDxnNLpqzl8JA2BJL+IhjU0BoD9taKjHM+dr09K6gZ0svPXZPCgWsSfdCADTD1qekk9QEkAZyWEZW9MvTcTGdw7miSTKfg+ClOBWRixkovt+549NWlmYCogOieyyVs/giVNiHcp0j+Ra3KapMLoPhyH/WqUBYcQEtTp01uY+u7urdJhdsRfmF/F3coXxngIvkDjM2eZ3Gna+Bm8hb6jhk4BzaLKLkrsv0KSn84a55I=
+script:
+- npm install
+#- grunt test
+#- grunt pushCoverage
+- ionic platform add ios
+#- ionic plugin add cordova-plugin-app-version
+#- ionic plugin add cordova-plugin-network-information
+#- ionic plugin add ionic-plugin-keyboard
+#- ionic plugin add cordova-plugin-x-toast
+#- ionic plugin add phonegap-plugin-push
+- ionic build ios --device --release
+#- ionic build ios --device --release
